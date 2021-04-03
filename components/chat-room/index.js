@@ -106,9 +106,6 @@ const ChatRoom = props => {
                     <Text style={styles.distance}>
                       {calculateDistance(user.location.coords.latitude, user.location.coords.longitude)}
                     </Text>
-                    <Text style={props.styles.isTyping}>
-                      {'is typing'}
-                    </Text>
                   </View>
                 ) : (
                   null
